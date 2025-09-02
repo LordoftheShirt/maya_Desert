@@ -1,0 +1,25 @@
+move pivot: D
+see-through: 4
+see wheel: RB
+extrude: ctrl + e
+bevel: ctrl + b
+repeat last cmd: G
+
+
+edge double click: select whole straight
+Mesh Tools > Insert Edge
+Mesh > Combine, (seperate, extract)
+Edit Mesh > Merge
+Modify > Center Pivot
+Mesh Display > harden/soften edge
+
+Bridge: connects edges
+Target weld: two vertices into one
+
+
+Mesh > Clean up (select matching pol, apply to all poly obj, faces with more 4 sides)
+
+CLEANUP:
+nonmanifold geometry: two shapes connected by only 2 or vertices (no faces between).
+
+wall 300 x 300 15
